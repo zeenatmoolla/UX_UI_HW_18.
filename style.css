@@ -1,0 +1,53 @@
+/* CSS */
+  .flexContainer {
+    display: flex;
+    justify-content: space-between; /* To evenly space the flex items */
+    margin: 20px 0; /* Add some margin for spacing */
+  }
+
+  .flexChild {
+    width: 33%; /* Set width to 33% to create three evenly spaced columns */
+    padding: 10px; /* Add padding to the flex children for spacing */
+    box-sizing: border-box; /* Include padding in the element's total width */
+  }
+  /* CSS Grid Container Styles */
+  .workGrid {
+    display: grid;
+    grid-template-areas:
+      "project1 project1-description"
+      "project2 project2-description";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+    /* Default styles for larger screens */
+
+/* Your existing CSS code for larger screens can be placed here */
+
+/* Mobile media query */
+@media screen and (max-width: 600px) {
+    /* Flexbox changes */
+    .flex-container {
+      flex-direction: column;
+    }
+  
+    .flex-item {
+      width: 100%;
+    }
+  
+    /* Grid changes */
+    .grid-container {
+      grid-template-areas: 
+        "header"
+        "content"
+        "footer";
+      grid-template-rows: 1fr 4fr 1fr;
+      grid-template-columns: 1fr;
+    }
+  
+    /* Additional mobile-specific styles can be added here */
+  }
+  
+  
+   
+
