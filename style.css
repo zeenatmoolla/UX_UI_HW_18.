@@ -1,4 +1,52 @@
 /* CSS */
+/* Navbar CSS */
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo {
+  width: 23%;
+  padding: 1%;
+}
+
+nav {
+  width: 73%;
+  padding: 1%;
+}
+
+ul {
+  width: 50%;
+  margin-left: auto;
+}
+
+/* Hero Image CSS */
+.heroImg {
+  height: 600px;
+  padding: 25px;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Footer CSS */
+footer {
+  background-color: #373738;
+  padding: 10px;
+}
+
+footer ul {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+}
+
+footer li {
+  padding: 5px 10px;
+}
   .flexContainer {
     display: flex;
     justify-content: space-between; /* To evenly space the flex items */
